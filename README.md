@@ -60,15 +60,21 @@ what we need to work with Manim,<br>
 - Download link: https://github.com/3b1b/manim/tree/3b088b12843b7a4459fe71eba96b70edafb7aa78 <br>
   <em>this one is a old commit link but it works well enough, we can definitely go for new one [here](https://github.com/3b1b/manim).</em>
 - Download repo as zip.
-- Extract the zip
+- Extract the zip  
   <strong>Plugins:</strong>
 - Remove pycairo from the requirements.txt > open cmd terminal here > <strong>run</strong> `python -m pip install -r requirements.txt`
 - `python -m pip install pydub`<br>
   `python -m pip install pyreadline`
 - <strong>Running manim:</strong><br>
-  Goto <b>cmd</b> terminal > <b>run</b> `python -m manim example_scenes.py SquareToCircle -pl`<br>
+  Goto <b>cmd</b> terminal > cd _downloaded-repo_ > <b>run</b> `python -m manim example_scenes.py SquareToCircle -pl`<br>
+  Here `python -m manim` is prefix required to run every manim file, `example_scenes.py` is module containing examples, `SquareToCircle is the class to render`.
   The `-p` flag in the command above is for previewing, meaning the video file will automatically open when it is done rendering. The `-l` flag is for a faster rendering at a lower quality.
 
+**Environment variables > Path**<br>
+```
+	C:\MikTex\miktex\bin\x64\
+	C:\ffmpeg\bin\
+```
 ### References:
 
 Windows download guide: https://youtu.be/ZltiKHFWmv8v  
