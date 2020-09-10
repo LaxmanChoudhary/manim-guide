@@ -3,7 +3,7 @@
 Start with the imports, as manim is not a heavy consuming library we can just import all the functionalities available.  
 1. Create a new .py file that contains all the required imported to it.<br>
 `touch all-imports.py`<br>
-*[example file](all-imports.py) is present in the same folder*
+*example [file](all-imports.py) is present in the same folder*
 
 2. Then, we can use this file for directly importing all functionalities.<br>
 `from all-import import *`<br>
@@ -11,7 +11,8 @@ Start with the imports, as manim is not a heavy consuming library we can just im
 ### Common functionalities
 #### Main Class
 - `class SCENE-FUNCTION(Scene):`<br>
-Every manim program is contained in a python class.
+Every manim program is contained in a python class. <br>
+**Render order is Top -> Bottom**
 
 #### Config
 - `CONFIG = { }`<br>
@@ -27,7 +28,11 @@ A class should contain a contruct function defined, where whatever is to be rend
 	Simply add the object to the scene without any animations.
 	- `.play(object)` | `.play(Transition(object))`<br>
 	Render the objects with animations.Transformations functions can be passed to change animations for entry, exit and so.
+	- `.remove(object)`<br>
+	remove object from the scene.
 	- `.wait(time)`<br>
+	Adds pause to the animation
+		- time- in sec
 
 **eg**
 ```python
