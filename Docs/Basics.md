@@ -3,6 +3,8 @@
 Start with the imports, as manim is not a heavy consuming library we can just import all the functionalities available.  
 1. Create a new .py file that contains all the required imported to it.<br>
 `touch all-imports.py`<br>
+*example file is present in the same folder*
+
 2. Then, we can use this file for directly importing all functionalities.<br>
 `from all-import import *`<br>
 
