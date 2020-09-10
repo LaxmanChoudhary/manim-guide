@@ -75,6 +75,8 @@ what we need to work with Manim,<br>
 	C:\MikTex\miktex\bin\x64\
 	C:\ffmpeg\bin\
 ```
+**Further reading [here](./Docs/Basics.md)**
+
 ### References:
 
 Windows download guide: https://youtu.be/ZltiKHFWmv8v  
