@@ -24,15 +24,17 @@ It let's us create a base class and reuse it in different scenes by changing the
 A class should contain a contruct function defined, where whatever is to be rendered is mentioned.
 
 - **Built-in functions**<br>
-	- `.add(object)`<br>
+	- `self.add(object)`<br>
 	Simply add the object to the scene without any animations.
-	- `.play(object)` | `.play(Transition(object))`<br>
+	- `self.play(object)` | `.play(Transition(object))`<br>
 	Render the objects with animations.Transformations functions can be passed to change animations for entry, exit and so.
-	- `.remove(object)`<br>
+	- `self.remove(object)`<br>
 	remove object from the scene.
-	- `.wait(time)`<br>
+	- `self.wait(time)`<br>
 	Adds pause to the animation
 		- time- in sec
+
+*Here `self` refers to the current scene displayed*
 
 **eg**
 ```python
